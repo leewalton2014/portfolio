@@ -2,7 +2,6 @@ import React from "react";
 //styles
 import styled from "styled-components";
 import { About } from "../styles";
-import useScroll from "./useScroll";
 
 const FaqSection = () => {
     //return
@@ -45,7 +44,7 @@ const FaqSection = () => {
 
 const Faq = styled(About)`
     height: auto;
-    background: #464646;
+    background: #272727;
     display: block;
     span {
         display: block;
