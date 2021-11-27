@@ -10,12 +10,12 @@ const Nav = () => {
         <StyledNav>
             <h1>
                 <Link id="logo" to="/">
-                    Capture
+                    Lee Walton
                 </Link>
             </h1>
             <ul>
                 <li>
-                    <Link to="/">1. About Us</Link>
+                    <Link to="/">1. About Me</Link>
                     <Line
                         transition={{ duration: 0.75 }}
                         initial={{ width: "0%" }}
@@ -23,20 +23,22 @@ const Nav = () => {
                     />
                 </li>
                 <li>
-                    <Link to="/work">2. Our Work</Link>
-                    <Line
-                        transition={{ duration: 0.75 }}
-                        initial={{ width: "0%" }}
-                        animate={{ width: pathname === "/work" ? "50%" : "0%" }}
-                    />
-                </li>
-                <li>
-                    <Link to="/contact">3. Contact Us</Link>
+                    <Link to="/#MyWork">2. My Work</Link>
                     <Line
                         transition={{ duration: 0.75 }}
                         initial={{ width: "0%" }}
                         animate={{
-                            width: pathname === "/contact" ? "50%" : "0%",
+                            width: pathname === "/#MyWork" ? "50%" : "0%",
+                        }}
+                    />
+                </li>
+                <li>
+                    <Link to="/#MySkills">3. My Skills</Link>
+                    <Line
+                        transition={{ duration: 0.75 }}
+                        initial={{ width: "0%" }}
+                        animate={{
+                            width: pathname === "/#MySkills" ? "50%" : "0%",
                         }}
                     />
                 </li>

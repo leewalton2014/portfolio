@@ -35,7 +35,7 @@ export const Image = styled.div`
     overflow: hidden;
     img {
         width: 100%;
-        height: 80vh;
+        height: auto;
         object-fit: cover;
     }
 `;

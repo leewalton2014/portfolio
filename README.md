@@ -1,8 +1,8 @@
-# Photography Site (Capture)
+# Personal Portfolio
 
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://capture-react.vercel.app/)
 
-React practise project.
+Personal portfolio project to showcase work
 
 ### Details
 

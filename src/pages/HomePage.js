@@ -1,7 +1,7 @@
 import React from "react";
 //import page
 import AboutSection from "../components/AboutSection";
-import ServicesSection from "../components/ServicesSection";
+import SkillsSection from "../components/SkillsSection";
 import FaqSection from "../components/FaqSection";
 //animation
 import { motion } from "framer-motion";
@@ -19,7 +19,7 @@ const AboutUs = () => {
             exit="exit"
         >
             <AboutSection />
-            <ServicesSection />
+            <SkillsSection />
             <FaqSection />
         </motion.div>
     );

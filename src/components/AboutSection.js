@@ -1,5 +1,5 @@
 import React from "react";
-import home1 from "../img/home1.png";
+import avatar from "../img/AvatarBlue.png";
 //styled
 import { About, Description, Image, Hide } from "../styles";
 import { Link } from "react-router-dom";
@@ -18,31 +18,29 @@ const AboutSection = () => {
                 <motion.div className="title">
                     <Hide className="hide">
                         <motion.h2 variants={titleAnimation}>
-                            We work to make
+                            <span>Lee Walton</span>
                         </motion.h2>
                     </Hide>
                     <Hide className="hide">
                         <motion.h2 variants={titleAnimation}>
-                            your <span>dreams</span> come
+                            Full Stack Web Developer
                         </motion.h2>
-                    </Hide>
-                    <Hide className="hide">
-                        <motion.h2 variants={titleAnimation}>true.</motion.h2>
                     </Hide>
                 </motion.div>
                 <motion.p variants={fade}>
-                    Contact us for any photography or videography ideas that you
-                    have. We have professionals with amazing skills.
+                    I am a recent Computer Science graduate (First Class) and a
+                    full stack web developer. My main experience is in PHP,
+                    React, Node and NextJs. I am also compitent in other
+                    languages. Please view my work below.
                 </motion.p>
-                <motion.button variants={fade}>
-                    <Link to="/contact">Contact Us</Link>
-                </motion.button>
+                <button>
+                    <a href="/#MyWork">My Work</a>
+                </button>
             </Description>
             <Image className="image">
-                <motion.img
-                    variants={photoAnim}
-                    src={home1}
-                    alt="guy with a camera"
+                <img
+                    src={avatar}
+                    alt="avitar image"
                 />
             </Image>
             <Wave />

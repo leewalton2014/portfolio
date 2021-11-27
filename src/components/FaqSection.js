@@ -2,76 +2,63 @@ import React from "react";
 //styles
 import styled from "styled-components";
 import { About } from "../styles";
-import Toggle from "./Toggle";
-import { AnimateSharedLayout } from "framer-motion";
-import { scrollReveal } from "../animation";
 import useScroll from "./useScroll";
 
 const FaqSection = () => {
-    //do stuff
-    const [element, controls] = useScroll();
     //return
     return (
-        <Faq
-            variants={scrollReveal}
-            initial="hidden"
-            ref={element}
-            animate={controls}
-            className="Faq"
-        >
+        <Faq className="Faq">
             <h2>
-                Any Questions <span>FAQ</span>
+                <span>Contact Me</span>
             </h2>
-            <AnimateSharedLayout>
-                <Toggle title="How do I start?">
-                    <div className="answer">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Fugit, excepturi?
-                        </p>
-                    </div>
-                </Toggle>
-                <Toggle title="Daily Scedule">
-                    <div className="answer">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Fugit, excepturi?
-                        </p>
-                    </div>
-                </Toggle>
-                <Toggle title="Payment Methods">
-                    <div className="answer">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Fugit, excepturi?
-                        </p>
-                    </div>
-                </Toggle>
-                <Toggle title="What products do you offer?">
-                    <div className="answer">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Fugit, excepturi?
-                        </p>
-                    </div>
-                </Toggle>
-            </AnimateSharedLayout>
+            <div className="faq-line"></div>
+            <p>
+                <h4>Email</h4>
+                <a href="mailto:lsj.walton@outlook.com">
+                    lsj.walton@outlook.com
+                </a>
+            </p>
+            <p>
+                <h4>Github</h4>
+                <a href="https://github.com/leewalton2014" target="_blank">
+                    @leewalton2014
+                </a>
+            </p>
+            <p>
+                <h4>LinkedIn</h4>
+                <a
+                    href="https://www.linkedin.com/in/lee-walton-932287142/"
+                    target="_blank"
+                >
+                    Lee Walton
+                </a>
+            </p>
+            <p>
+                <h4>Google Dev</h4>
+                <a href="https://g.dev/lwalton" target="_blank">
+                    @lwalton
+                </a>
+            </p>
         </Faq>
     );
 };
 
 const Faq = styled(About)`
+    height: auto;
+    background: #464646;
     display: block;
     span {
         display: block;
     }
     h2 {
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
         font-weight: lighter;
+    }
+    h4 {
+        padding-bottom: 1rem;
+    }
+    a{
+        font-size: 2rem;
     }
     .faq-line {
         background: #cccccc;
