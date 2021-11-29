@@ -111,6 +111,37 @@ const WorkSection = () => {
                         </a>
                     </div>
                 </div>
+                <div className="card card-course">
+                    <div className="card-content">
+                        <h3>Contact Keeper (Client)</h3>
+                        <p>
+                            As part of the course I took after university I
+                            created this contact keeper project to further develop my react knowlege.
+                        </p>
+                        <div className="tags">
+                            <span className="tag tag-sm tag-react">
+                                #react
+                            </span>
+                            <span className="tag tag-sm tag-react">
+                                #axios
+                            </span>
+                            <span className="tag tag-sm tag-react">
+                                #reactrouter
+                            </span>
+                            <span className="tag tag-sm tag-react">
+                                #reactcontext
+                            </span>
+                        </div>
+                        <a
+                            className="btn btn-green btn-block button"
+                            href="https://github.com/leewalton2014/Python/blob/main/Assignment3(17007224).ipynb"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            GitHub
+                        </a>
+                    </div>
+                </div>
             </div>
             <div className="faq-line"></div>
             <div className="row-max-3">
@@ -167,6 +198,38 @@ const WorkSection = () => {
                             </span>
                             <span className="tag tag-sm tag-react">
                                 #matplotlib
+                            </span>
+                        </div>
+                        <a
+                            className="btn btn-green btn-block button"
+                            href="https://github.com/leewalton2014/Python/blob/main/Assignment3(17007224).ipynb"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+                <div className="card card-course">
+                    <div className="card-content">
+                        <h3>Contact Keeper (API)</h3>
+                        <p>
+                            As part of the course I took after university I
+                            created this API as a backend to the react client
+                            project above.
+                        </p>
+                        <div className="tags">
+                            <span className="tag tag-sm tag-react">
+                                #mongodb
+                            </span>
+                            <span className="tag tag-sm tag-react">
+                                #expressjs
+                            </span>
+                            <span className="tag tag-sm tag-react">
+                                #nodejs
+                            </span>
+                            <span className="tag tag-sm tag-react">
+                                #jsonwebtoken
                             </span>
                         </div>
                         <a
