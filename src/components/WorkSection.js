@@ -116,15 +116,12 @@ const WorkSection = () => {
                         <h3>Contact Keeper (Client)</h3>
                         <p>
                             As part of the course I took after university I
-                            created this contact keeper project to further develop my react knowlege.
+                            created this contact keeper project to further
+                            develop my react knowlege.
                         </p>
                         <div className="tags">
-                            <span className="tag tag-sm tag-react">
-                                #react
-                            </span>
-                            <span className="tag tag-sm tag-react">
-                                #axios
-                            </span>
+                            <span className="tag tag-sm tag-react">#react</span>
+                            <span className="tag tag-sm tag-react">#axios</span>
                             <span className="tag tag-sm tag-react">
                                 #reactrouter
                             </span>
