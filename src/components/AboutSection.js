@@ -2,10 +2,9 @@ import React from "react";
 import avatar from "../img/AvatarBlue.png";
 //styled
 import { About, Description, Image, Hide } from "../styles";
-import { Link } from "react-router-dom";
 //framer motion
 import { motion } from "framer-motion";
-import { fade, titleAnimation, photoAnim } from "../animation";
+import { fade, titleAnimation } from "../animation";
 import Wave from "./Wave";
 
 const AboutSection = () => {

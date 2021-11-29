@@ -5,12 +5,11 @@ import diaphragm from "../img/diaphragm.svg";
 import money from "../img/money.svg";
 //styles
 import styled from "styled-components";
-import { About, Description, Image } from "../styles";
-import useScroll from "./useScroll";
+import { About, Description } from "../styles";
+
 
 const SkillsSection = () => {
     //do stuff
-    const [element, controls] = useScroll();
     //return
     return (
         <Services className="Services">

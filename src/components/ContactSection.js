@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 import { About } from "../styles";
 
-const FaqSection = () => {
+const ContactSection = () => {
     //return
     return (
         <Faq className="Faq">
@@ -77,4 +77,4 @@ const Faq = styled(About)`
     }
 `;
 
-export default FaqSection;
+export default ContactSection;

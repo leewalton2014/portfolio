@@ -2,7 +2,8 @@ import React from "react";
 //import page
 import AboutSection from "../components/AboutSection";
 import SkillsSection from "../components/SkillsSection";
-import FaqSection from "../components/FaqSection";
+import ContactSection from "../components/ContactSection";
+import WorkSection from "../components/WorkSection";
 //animation
 import { motion } from "framer-motion";
 import { pageAnimation } from "../animation";
@@ -19,8 +20,9 @@ const AboutUs = () => {
             exit="exit"
         >
             <AboutSection />
+            <WorkSection />
             <SkillsSection />
-            <FaqSection />
+            <ContactSection />
         </motion.div>
     );
 };
