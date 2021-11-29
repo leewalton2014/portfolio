@@ -39,7 +39,7 @@ const AboutSection = () => {
             <Image className="image">
                 <img
                     src={avatar}
-                    alt="avitar image"
+                    alt="personal avitar"
                 />
             </Image>
             <Wave />

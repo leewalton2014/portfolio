@@ -19,7 +19,7 @@ const WorkSection = () => {
                 <div className="card card-course">
                     <div className="card-content">
                         <div className="text-center">
-                            <img src="/img/mpwb2.PNG" />
+                            <img src="/img/mpwb2.PNG" alt="page preview" />
                         </div>
                         <h3>My Personal Wellbeing</h3>
                         <p>
@@ -37,6 +37,7 @@ const WorkSection = () => {
                             className="btn btn-green btn-block button"
                             href="https://mypersonalwellbeing.co.uk/"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             View Site
                         </a>
@@ -45,7 +46,7 @@ const WorkSection = () => {
                 <div className="card card-course">
                     <div className="card-content">
                         <div className="text-center">
-                            <img src="/img/ons1.PNG" />
+                            <img src="/img/ons1.PNG" alt="page preview" />
                         </div>
                         <h3>Open Narrative System</h3>
                         <p>
@@ -62,6 +63,7 @@ const WorkSection = () => {
                             className="btn btn-green btn-block button"
                             href="http://unn-kcfm7.newnumyspace.co.uk/ONS/cms.php?siteID=10"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             View Site
                         </a>
@@ -70,7 +72,7 @@ const WorkSection = () => {
                 <div className="card card-course">
                     <div className="card-content">
                         <div className="text-center">
-                            <img src="/img/nextfire1.png" />
+                            <img src="/img/nextfire1.png" alt="page preview" />
                         </div>
                         <h3>Next JS Blog</h3>
                         <p>
@@ -95,6 +97,7 @@ const WorkSection = () => {
                             className="btn btn-green btn-block button"
                             href="https://nextfire-blue.vercel.app/"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             View Site
                         </a>
@@ -102,6 +105,7 @@ const WorkSection = () => {
                             className="btn btn-green btn-block button"
                             href="https://github.com/leewalton2014/nextfire"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             GitHub
                         </a>
@@ -134,6 +138,7 @@ const WorkSection = () => {
                             className="btn btn-green btn-block button"
                             href="https://github.com/leewalton2014/Python/blob/main/data_dashboard.py"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             GitHub
                         </a>
@@ -168,6 +173,7 @@ const WorkSection = () => {
                             className="btn btn-green btn-block button"
                             href="https://github.com/leewalton2014/Python/blob/main/Assignment3(17007224).ipynb"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             GitHub
                         </a>

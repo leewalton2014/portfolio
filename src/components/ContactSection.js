@@ -13,13 +13,17 @@ const ContactSection = () => {
             <div className="faq-line"></div>
             <p>
                 <h4>Email</h4>
-                <a href="mailto:lsj.walton@outlook.com">
+                <a href="mailto:lsj.walton@outlook.com" rel="noreferrer">
                     lsj.walton@outlook.com
                 </a>
             </p>
             <p>
                 <h4>Github</h4>
-                <a href="https://github.com/leewalton2014" target="_blank">
+                <a
+                    href="https://github.com/leewalton2014"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     @leewalton2014
                 </a>
             </p>
@@ -28,13 +32,18 @@ const ContactSection = () => {
                 <a
                     href="https://www.linkedin.com/in/lee-walton-932287142/"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     Lee Walton
                 </a>
             </p>
             <p>
                 <h4>Google Dev</h4>
-                <a href="https://g.dev/lwalton" target="_blank">
+                <a
+                    href="https://g.dev/lwalton"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     @lwalton
                 </a>
             </p>
