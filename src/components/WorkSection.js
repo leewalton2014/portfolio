@@ -129,9 +129,44 @@ const WorkSection = () => {
                                 #reactcontext
                             </span>
                         </div>
-                        <a
+                        {/* <a
                             className="btn btn-green btn-block button"
                             href="https://github.com/leewalton2014/Python/blob/main/Assignment3(17007224).ipynb"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            GitHub
+                        </a> */}
+                        <button className="btn btn-green btn-block button">
+                            Coming Soon
+                        </button>
+                    </div>
+                </div>
+                <div className="card card-course">
+                    <div className="card-content">
+                        <h3>Contact Keeper (API)</h3>
+                        <p>
+                            As part of the course I took after university I
+                            created this API as a backend to the react client
+                            project above.
+                        </p>
+                        <div className="tags">
+                            <span className="tag tag-sm tag-react">
+                                #mongodb
+                            </span>
+                            <span className="tag tag-sm tag-react">
+                                #expressjs
+                            </span>
+                            <span className="tag tag-sm tag-react">
+                                #nodejs
+                            </span>
+                            <span className="tag tag-sm tag-react">
+                                #jsonwebtoken
+                            </span>
+                        </div>
+                        <a
+                            className="btn btn-green btn-block button"
+                            href="https://github.com/leewalton2014/contact-app--server"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -195,38 +230,6 @@ const WorkSection = () => {
                             </span>
                             <span className="tag tag-sm tag-react">
                                 #matplotlib
-                            </span>
-                        </div>
-                        <a
-                            className="btn btn-green btn-block button"
-                            href="https://github.com/leewalton2014/Python/blob/main/Assignment3(17007224).ipynb"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            GitHub
-                        </a>
-                    </div>
-                </div>
-                <div className="card card-course">
-                    <div className="card-content">
-                        <h3>Contact Keeper (API)</h3>
-                        <p>
-                            As part of the course I took after university I
-                            created this API as a backend to the react client
-                            project above.
-                        </p>
-                        <div className="tags">
-                            <span className="tag tag-sm tag-react">
-                                #mongodb
-                            </span>
-                            <span className="tag tag-sm tag-react">
-                                #expressjs
-                            </span>
-                            <span className="tag tag-sm tag-react">
-                                #nodejs
-                            </span>
-                            <span className="tag tag-sm tag-react">
-                                #jsonwebtoken
                             </span>
                         </div>
                         <a
@@ -323,8 +326,6 @@ const Work = styled(About)`
         border-radius: 3px;
         padding: 0.2em 0.5em 0.3em;
         border-radius: 2px;
-        background: var(--tag-bg);
-        color: var(--text-color);
         font-weight: 600;
         margin: 0.25em 0.1em;
         font-size: 16px;

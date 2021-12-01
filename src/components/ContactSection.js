@@ -2,6 +2,9 @@ import React from "react";
 //styles
 import styled from "styled-components";
 import { About } from "../styles";
+//icons
+import { FaGithub, FaLinkedin, FaGoogle } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
 
 const ContactSection = () => {
     //return
@@ -12,38 +15,42 @@ const ContactSection = () => {
             </h2>
             <div className="faq-line"></div>
             <p>
-                <h4>Email</h4>
                 <a href="mailto:lsj.walton@outlook.com" rel="noreferrer">
+                <IoIosMail size={70} color='#23d997'/>
+                <h4>Email</h4>
                     lsj.walton@outlook.com
                 </a>
             </p>
             <p>
-                <h4>Github</h4>
                 <a
                     href="https://github.com/leewalton2014"
                     target="_blank"
                     rel="noreferrer"
                 >
+                <FaGithub size={70} color='#23d997'/>
+                <h4>Github</h4>
                     @leewalton2014
                 </a>
             </p>
             <p>
-                <h4>LinkedIn</h4>
                 <a
                     href="https://www.linkedin.com/in/lee-walton-932287142/"
                     target="_blank"
                     rel="noreferrer"
                 >
+                <FaLinkedin size={70} color='#23d997'/>
+                <h4>LinkedIn</h4>
                     Lee Walton
                 </a>
             </p>
-            <p>
-                <h4>Google Dev</h4>
+            <p> 
                 <a
                     href="https://g.dev/lwalton"
                     target="_blank"
                     rel="noreferrer"
                 >
+                <FaGoogle size={70} color='#23d997'/>
+                <h4>Google Dev</h4>
                     @lwalton
                 </a>
             </p>

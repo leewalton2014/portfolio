@@ -6,7 +6,8 @@ import money from "../img/money.svg";
 //styles
 import styled from "styled-components";
 import { About, Description } from "../styles";
-
+//icons
+import { FaReact, FaJs, FaPhp, FaNodeJs, FaDatabase, FaPython, FaAws, FaGoogle } from "react-icons/fa";
 
 const SkillsSection = () => {
     //do stuff
@@ -18,61 +19,61 @@ const SkillsSection = () => {
                 <Cards className="cards">
                     <Card className="card">
                         <div className="icon">
-                            <img src={clock} alt="clock icon" />
+                            <FaReact size={60} color='#23d997'/>
                             <h3>React JS</h3>
                         </div>
                     </Card>
                     <Card className="card">
                         <div className="icon">
-                            <img src={clock} alt="teamwork icon" />
+                            <FaJs size={60} color='#23d997'/>
                             <h3>Next JS</h3>
                         </div>
                     </Card>
                     <Card className="card">
                         <div className="icon">
-                            <img src={diaphragm} alt="diaphragm icon" />
+                            <FaPhp size={60} color='#23d997'/>
                             <h3>PHP</h3>
                         </div>
                     </Card>
                     <Card className="card">
                         <div className="icon">
-                            <img src={money} alt="money icon" />
+                            <FaNodeJs size={60} color='#23d997'/>
                             <h3>Node JS</h3>
                         </div>
                     </Card>
                     <Card className="card">
                         <div className="icon">
-                            <img src={money} alt="money icon" />
+                            <FaNodeJs size={60} color='#23d997'/>
                             <h3>Express.js</h3>
                         </div>
                     </Card>
                     <Card className="card">
                         <div className="icon">
-                            <img src={money} alt="money icon" />
+                            <FaDatabase size={60} color='#23d997'/>
                             <h3>MySQL</h3>
                         </div>
                     </Card>
                     <Card className="card">
                         <div className="icon">
-                            <img src={money} alt="money icon" />
+                            <FaDatabase size={60} color='#23d997'/>
                             <h3>MongoDB</h3>
                         </div>
                     </Card>
                     <Card className="card">
                         <div className="icon">
-                            <img src={money} alt="money icon" />
+                            <FaPython size={60} color='#23d997'/>
                             <h3>Python</h3>
                         </div>
                     </Card>
                     <Card className="card">
                         <div className="icon">
-                            <img src={money} alt="money icon" />
+                            <FaAws size={60} color='#23d997'/>
                             <h3>AWS</h3>
                         </div>
                     </Card>
                     <Card className="card">
                         <div className="icon">
-                            <img src={money} alt="money icon" />
+                            <FaGoogle size={60} color='#23d997'/>
                             <h3>Google Firebase</h3>
                         </div>
                     </Card>
@@ -109,6 +110,9 @@ const Card = styled.div`
             background: white;
             color: black;
             padding: 1rem;
+        }
+        svg{
+            
         }
     }
 `;
