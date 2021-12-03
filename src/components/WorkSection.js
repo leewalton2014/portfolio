@@ -76,11 +76,10 @@ const WorkSection = () => {
                         </div>
                         <h3>Next JS Blog</h3>
                         <p>
-                            This project was built as part of a online course I
-                            took after university to upgrade my Javascript
-                            knowlege on newer frameworks such as React and Next
-                            JS. I personalised this project to be my personal
-                            blog.
+                            This project was built as part of an online course I
+                            took to upgrade my Javascript knowlege on newer
+                            frameworks such as React and Next JS. I personalised
+                            this project to be my personal blog.
                         </p>
                         <div className="tags">
                             <span className="tag tag-sm tag-react">
@@ -115,9 +114,9 @@ const WorkSection = () => {
                     <div className="card-content">
                         <h3>Contact Keeper (Client)</h3>
                         <p>
-                            As part of the course I took after university I
-                            created this contact keeper project to further
-                            develop my react knowlege.
+                            As part of the advanced JS course I created this
+                            contact keeper project to further develop my react
+                            knowlege.
                         </p>
                         <div className="tags">
                             <span className="tag tag-sm tag-react">#react</span>
@@ -146,9 +145,8 @@ const WorkSection = () => {
                     <div className="card-content">
                         <h3>Contact Keeper (API)</h3>
                         <p>
-                            As part of the course I took after university I
-                            created this API as a backend to the react client
-                            project above.
+                            As part of the advanced JS course I created this API
+                            as a backend to the react client project above.
                         </p>
                         <div className="tags">
                             <span className="tag tag-sm tag-react">
