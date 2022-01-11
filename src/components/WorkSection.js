@@ -172,6 +172,31 @@ const WorkSection = () => {
                         </a>
                     </div>
                 </div>
+                <div className="card card-course">
+                    <div className="card-content">
+                        <h3>Blog API</h3>
+                        <p>
+                            I am developing a basic blog API which will
+                            eventually use JSON web tokens in PHP.
+                        </p>
+                        <div className="tags">
+                            <span className="tag tag-sm tag-react">#php</span>
+                            <span className="tag tag-sm tag-react">#oophp</span>
+                            <span className="tag tag-sm tag-react">#pdo</span>
+                            <span className="tag tag-sm tag-react">
+                                #jsonwebtoken
+                            </span>
+                        </div>
+                        <a
+                            className="btn btn-green btn-block button"
+                            href="https://github.com/leewalton2014/php-blog-api"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            GitHub
+                        </a>
+                    </div>
+                </div>
             </div>
             <div className="faq-line"></div>
             <div className="row-max-3">
