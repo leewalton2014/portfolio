@@ -61,7 +61,7 @@ const WorkSection = () => {
                         </div>
                         <a
                             className="btn btn-green btn-block button"
-                            href="http://unn-kcfm7.newnumyspace.co.uk/ONS/cms.php?siteID=10"
+                            href="https://opennarrativesystem.co.uk/TICA"
                             target="_blank"
                             rel="noreferrer"
                         >
