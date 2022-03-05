@@ -128,17 +128,22 @@ const WorkSection = () => {
                                 #reactcontext
                             </span>
                         </div>
-                        {/* <a
+                        <a
                             className="btn btn-green btn-block button"
-                            href="https://github.com/leewalton2014/Python/blob/main/Assignment3(17007224).ipynb"
+                            href="https://salty-taiga-45835.herokuapp.com/"
                             target="_blank"
                             rel="noreferrer"
                         >
-                            GitHub
-                        </a> */}
-                        <button className="btn btn-green btn-block button">
-                            Coming Soon
-                        </button>
+                            View Site
+                        </a>
+                        <a
+                            className="btn btn-green btn-block button"
+                            href="https://github.com/leewalton2014/contact-app--server/tree/master/client"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Github
+                        </a>
                     </div>
                 </div>
                 <div className="card card-course">
